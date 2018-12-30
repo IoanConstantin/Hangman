@@ -1,0 +1,26 @@
+Tema 2 PC - JOC HANGMAN
+
+Precizari generale:
+
+1.Creare meniu cu optiunile:
+   Navigarea se realizeaza prin sageti.
+   a)New Game
+     -Se afiseaza ferestrele cu desenul spanzuratorii si actualizarea 
+      timpului curent. Pe masura ce utilizatorul introduce caractere 
+      se completeaza sirul ascuns, sirul literelor gresite sau 
+      nu se intampla nimic in cazul in care caracterul exista deja. 
+      La fiecare greseala se actualizeaza sirul de greseli si desenul 
+      spanzuratorii pana la limita de 6 greseli admise la care se incheie jocul.
+      Prin apasarea tastei Q se realizeaza salvarea starii intermediare a
+      jocului in fisierul fis2.txt (pe prima linie se salveaza sirul cautat,
+      pe a doua sirul ascuns curent, iar pe a treia sirul de caractere gresite) 
+      si se scrie 1 pe prima linie a fisierului jocterminat.txt. Daca se ajunge
+      la finalul jocului se scrie 0 pe prima linie a fisierului jocterminat.txt.
+      Daca sirul cautat este completat in totalitate fara a depasi numarul de
+      greseli admise utilizatorul este declarat castigator.
+   b)Resume Game
+     -In cazul in care pe prima linie a fisierului jocterminat.txt se afla 1
+      optiunea resume devine activa si jocul continua asemanator cu ceea ce am 
+      descris mai sus cu posibilitatea salvarii noilor stari intermediare.
+   c)Quit
+     -Iesire din aplicatie.
